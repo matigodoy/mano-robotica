@@ -1,0 +1,3 @@
+cvzone (detector de mano)
+mediapipe (sirve para el cvzone)
+pyserial(mandar command a arduino)

@@ -1,0 +1,13 @@
+PyInstaller
+
+Como instalar?
+pip install pyinstaller
+
+
+Como funciona?
+Desde el cmd ir a la ruta donde tenemos el archivo .py que queremos hacer el ejecutable.
+Comandos para ingresar en el cmd:
+pyinstaller nombrearchivo.py (en la carpeta dist esta el .exe)
+pyinstaller --windowed nombrearchivo.py (crea lo mismo que el anterior pero no abre la consola de fondo)
+pyinstaller --onefile nombrearchivo.py (crea en la carpeta dist un unico archivo ejecutable)
+pyinstaller --icon=./icono.ico nombrearchivo.py (crea el archivo ejecutable con un icono)
